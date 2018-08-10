@@ -1,5 +1,5 @@
 FROM php:7-fpm
-MAINTAINER Mike Chernev <mike@mikechernev.com>
+LABEL maintainer="Mike Chernev <mike@mikechernev.com>"
 
 RUN apt-get update && apt-get install -y \
         libfreetype6-dev \
